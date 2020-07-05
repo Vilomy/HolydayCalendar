@@ -13,6 +13,8 @@
 		3455D0C724B1B8400098CD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3455D0C524B1B8400098CD34 /* Main.storyboard */; };
 		3455D0C924B1B8410098CD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3455D0C824B1B8410098CD34 /* Assets.xcassets */; };
 		3455D0CC24B1B8410098CD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3455D0CA24B1B8410098CD34 /* LaunchScreen.storyboard */; };
+		3455D0D624B1C0340098CD34 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3455D0D524B1C0340098CD34 /* Holiday.swift */; };
+		3455D0D824B1C4DB0098CD34 /* HoliydayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3455D0D724B1C4DB0098CD34 /* HoliydayRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3455D0C824B1B8410098CD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3455D0CB24B1B8410098CD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3455D0CD24B1B8410098CD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3455D0D524B1C0340098CD34 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		3455D0D724B1C4DB0098CD34 /* HoliydayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliydayRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3455D0C824B1B8410098CD34 /* Assets.xcassets */,
 				3455D0CA24B1B8410098CD34 /* LaunchScreen.storyboard */,
 				3455D0CD24B1B8410098CD34 /* Info.plist */,
+				3455D0D524B1C0340098CD34 /* Holiday.swift */,
+				3455D0D724B1C4DB0098CD34 /* HoliydayRequest.swift */,
 			);
 			path = HolydayCalendar;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3455D0C424B1B8400098CD34 /* ViewController.swift in Sources */,
+				3455D0D824B1C4DB0098CD34 /* HoliydayRequest.swift in Sources */,
 				3455D0C024B1B8400098CD34 /* AppDelegate.swift in Sources */,
 				3455D0C224B1B8400098CD34 /* SceneDelegate.swift in Sources */,
+				3455D0D624B1C0340098CD34 /* Holiday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
